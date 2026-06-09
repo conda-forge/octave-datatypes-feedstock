@@ -1,6 +1,6 @@
 context:
   name: datatypes
-  version: "1.2.0"
+  version: "1.2.4"
 
 package:
   name: octave-${{ name }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/pr0m1th3as/datatypes/releases/download/release-${{ version }}/${{ name }}-${{ version }}.tar.gz
-  sha256: f054213bfe79b604c97eab3d738624b7fdd5548b3c9631acf6222d97016e9861
+  sha256: f077ab2b4d521a0631e1e9d086f9699faca4c01af93f8e2e416a278198699003
   target_directory: ${{ name }}
 
 build:
